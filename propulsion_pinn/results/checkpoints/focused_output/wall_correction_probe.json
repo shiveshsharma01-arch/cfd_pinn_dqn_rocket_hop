@@ -1,0 +1,274 @@
+{
+  "600": {
+    "uncorrected": {
+      "radial_percent": 18.632478713989258,
+      "axial_percent": 10.383016586303711
+    },
+    "1e-06": {
+      "radial_percent": 15.687855700936618,
+      "axial_percent": 9.859506447168348
+    },
+    "3e-06": {
+      "radial_percent": 14.06584674284554,
+      "axial_percent": 9.823466652928149
+    },
+    "1e-05": {
+      "radial_percent": 15.269564365409714,
+      "axial_percent": 11.185160774210603
+    },
+    "3e-05": {
+      "radial_percent": 21.614595307996215,
+      "axial_percent": 14.07453180715424
+    },
+    "0.0001": {
+      "radial_percent": 31.479636069590118,
+      "axial_percent": 17.86824368876522
+    },
+    "0.0003": {
+      "radial_percent": 40.29757728860736,
+      "axial_percent": 20.791336153681836
+    },
+    "0.001": {
+      "radial_percent": 48.112004153223516,
+      "axial_percent": 23.135134905168815
+    }
+  },
+  "700": {
+    "uncorrected": {
+      "radial_percent": 19.211448669433594,
+      "axial_percent": 11.486953735351562
+    },
+    "1e-06": {
+      "radial_percent": 16.489309882891884,
+      "axial_percent": 11.06050400937931
+    },
+    "3e-06": {
+      "radial_percent": 15.172203121259589,
+      "axial_percent": 11.148633882439915
+    },
+    "1e-05": {
+      "radial_percent": 16.632682968386668,
+      "axial_percent": 12.627440950928888
+    },
+    "3e-05": {
+      "radial_percent": 22.77595987774667,
+      "axial_percent": 15.546429653224632
+    },
+    "0.0001": {
+      "radial_percent": 32.31776535405989,
+      "axial_percent": 19.375150462926737
+    },
+    "0.0003": {
+      "radial_percent": 40.90962723901461,
+      "axial_percent": 22.36041225876743
+    },
+    "0.001": {
+      "radial_percent": 48.57185371459749,
+      "axial_percent": 24.75082233835873
+    }
+  },
+  "750": {
+    "uncorrected": {
+      "radial_percent": 18.94049835205078,
+      "axial_percent": 11.233715057373047
+    },
+    "1e-06": {
+      "radial_percent": 16.19817419137308,
+      "axial_percent": 10.792277090948582
+    },
+    "3e-06": {
+      "radial_percent": 14.926952592541468,
+      "axial_percent": 10.89663958483854
+    },
+    "1e-05": {
+      "radial_percent": 16.546232290478695,
+      "axial_percent": 12.43925523425288
+    },
+    "3e-05": {
+      "radial_percent": 22.81811553420332,
+      "axial_percent": 15.424644250466727
+    },
+    "0.0001": {
+      "radial_percent": 32.41917079604694,
+      "axial_percent": 19.299479216885846
+    },
+    "0.0003": {
+      "radial_percent": 41.032184319305955,
+      "axial_percent": 22.305061160334283
+    },
+    "0.001": {
+      "radial_percent": 48.711114905688014,
+      "axial_percent": 24.71282863039003
+    }
+  },
+  "800": {
+    "uncorrected": {
+      "radial_percent": 18.950742721557617,
+      "axial_percent": 11.41202449798584
+    },
+    "1e-06": {
+      "radial_percent": 16.28428433903071,
+      "axial_percent": 10.982045692035134
+    },
+    "3e-06": {
+      "radial_percent": 15.124391602947078,
+      "axial_percent": 11.115449283110904
+    },
+    "1e-05": {
+      "radial_percent": 16.88966452964949,
+      "axial_percent": 12.707966354562227
+    },
+    "3e-05": {
+      "radial_percent": 23.175556854154507,
+      "axial_percent": 15.733887559406615
+    },
+    "0.0001": {
+      "radial_percent": 32.72255229868692,
+      "axial_percent": 19.64766852930626
+    },
+    "0.0003": {
+      "radial_percent": 41.28331989947185,
+      "axial_percent": 22.68792029363797
+    },
+    "0.001": {
+      "radial_percent": 48.91891201207998,
+      "axial_percent": 25.127176365847095
+    }
+  },
+  "850": {
+    "uncorrected": {
+      "radial_percent": 18.953853607177734,
+      "axial_percent": 11.588838577270508
+    },
+    "1e-06": {
+      "radial_percent": 16.364913215362513,
+      "axial_percent": 11.17246078089639
+    },
+    "3e-06": {
+      "radial_percent": 15.31114572990342,
+      "axial_percent": 11.333372623520543
+    },
+    "1e-05": {
+      "radial_percent": 17.211998245079176,
+      "axial_percent": 12.968940341403574
+    },
+    "3e-05": {
+      "radial_percent": 23.51286916635606,
+      "axial_percent": 16.027170025641457
+    },
+    "0.0001": {
+      "radial_percent": 33.012229204870245,
+      "axial_percent": 19.97192248008797
+    },
+    "0.0003": {
+      "radial_percent": 41.525873085183306,
+      "axial_percent": 23.041168968806872
+    },
+    "0.001": {
+      "radial_percent": 49.12092477908638,
+      "axial_percent": 25.507431273303418
+    }
+  },
+  "900": {
+    "uncorrected": {
+      "radial_percent": 18.9517822265625,
+      "axial_percent": 11.757588386535645
+    },
+    "1e-06": {
+      "radial_percent": 16.42989133300421,
+      "axial_percent": 11.35556590896818
+    },
+    "3e-06": {
+      "radial_percent": 15.467614512973526,
+      "axial_percent": 11.542122119245418
+    },
+    "1e-05": {
+      "radial_percent": 17.486098469253182,
+      "axial_percent": 13.215628984025665
+    },
+    "3e-05": {
+      "radial_percent": 23.805047256929367,
+      "axial_percent": 16.300985184241856
+    },
+    "0.0001": {
+      "radial_percent": 33.27008007945511,
+      "axial_percent": 20.271908451763704
+    },
+    "0.0003": {
+      "radial_percent": 41.74889640419189,
+      "axial_percent": 23.366588524759
+    },
+    "0.001": {
+      "radial_percent": 49.3156737310532,
+      "axial_percent": 25.857142405377854
+    }
+  },
+  "1000": {
+    "uncorrected": {
+      "radial_percent": 18.97452163696289,
+      "axial_percent": 12.060697555541992
+    },
+    "1e-06": {
+      "radial_percent": 16.550565032951447,
+      "axial_percent": 11.685578847386891
+    },
+    "3e-06": {
+      "radial_percent": 15.724783804911494,
+      "axial_percent": 11.916049569380245
+    },
+    "1e-05": {
+      "radial_percent": 17.915865577566503,
+      "axial_percent": 13.653656487460715
+    },
+    "3e-05": {
+      "radial_percent": 24.26583972973604,
+      "axial_percent": 16.78628178494859
+    },
+    "0.0001": {
+      "radial_percent": 33.693394377203035,
+      "axial_percent": 20.80566955556373
+    },
+    "0.0003": {
+      "radial_percent": 42.13933359483211,
+      "axial_percent": 23.94837616121498
+    },
+    "0.001": {
+      "radial_percent": 49.69301901265504,
+      "axial_percent": 26.485816013229936
+    }
+  },
+  "650": {
+    "uncorrected": {
+      "radial_percent": 18.814146041870117,
+      "axial_percent": 10.775036811828613
+    },
+    "1e-06": {
+      "radial_percent": 15.946296659295939,
+      "axial_percent": 10.301561645320168
+    },
+    "3e-06": {
+      "radial_percent": 14.456767080204266,
+      "axial_percent": 10.332903318507784
+    },
+    "1e-05": {
+      "radial_percent": 15.794176053029792,
+      "axial_percent": 11.760159863551367
+    },
+    "3e-05": {
+      "radial_percent": 22.071954522575666,
+      "axial_percent": 14.661127733658525
+    },
+    "0.0001": {
+      "radial_percent": 31.809860060631532,
+      "axial_percent": 18.456804569648135
+    },
+    "0.0003": {
+      "radial_percent": 40.538457370457124,
+      "axial_percent": 21.39094091902138
+    },
+    "0.001": {
+      "radial_percent": 48.296881999043556,
+      "axial_percent": 23.737752617445594
+    }
+  }
+}

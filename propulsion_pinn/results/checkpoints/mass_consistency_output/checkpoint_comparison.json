@@ -1,0 +1,130 @@
+{
+  "validation_kpa": 650,
+  "ambient_pa": 101325.0,
+  "checkpoint_comparison": [
+    {
+      "stage": "source",
+      "radial_relative_l2_percent": 2.0329647064208984,
+      "radial_rmse_m_s": 0.48446202278137207,
+      "pressure_relative_l2_percent": 0.7286771535873413,
+      "pressure_rmse_pa": 2918.6474609375,
+      "exit_mass_flow_kg_s": 2.746776217474737,
+      "exit_thrust_n": 1330.0481023346351,
+      "physics": {
+        "near_wall_0_5_um": {
+          "continuity_normalized_mse": 1252.067138671875,
+          "momentum_normalized_mse": 169.9602508544922,
+          "sampled_cells": 128
+        },
+        "wall_5_50_um": {
+          "continuity_normalized_mse": 60.05816650390625,
+          "momentum_normalized_mse": 9.803058624267578,
+          "sampled_cells": 128
+        },
+        "outer_50_500_um": {
+          "continuity_normalized_mse": 6.678302764892578,
+          "momentum_normalized_mse": 0.5053768157958984,
+          "sampled_cells": 128
+        },
+        "core_over_500_um": {
+          "continuity_normalized_mse": 0.042567040771245956,
+          "momentum_normalized_mse": 0.010311461985111237,
+          "sampled_cells": 128
+        }
+      }
+    },
+    {
+      "stage": "step400",
+      "radial_relative_l2_percent": 2.0391645431518555,
+      "radial_rmse_m_s": 0.4859394431114197,
+      "pressure_relative_l2_percent": 0.908324122428894,
+      "pressure_rmse_pa": 3638.206298828125,
+      "exit_mass_flow_kg_s": 2.770192603144062,
+      "exit_thrust_n": 1344.0063332420964,
+      "physics": {
+        "near_wall_0_5_um": {
+          "continuity_normalized_mse": 1958.6214599609375,
+          "momentum_normalized_mse": 408.27264404296875,
+          "sampled_cells": 128
+        },
+        "wall_5_50_um": {
+          "continuity_normalized_mse": 92.09831237792969,
+          "momentum_normalized_mse": 14.930458068847656,
+          "sampled_cells": 128
+        },
+        "outer_50_500_um": {
+          "continuity_normalized_mse": 7.823407173156738,
+          "momentum_normalized_mse": 0.4952450394630432,
+          "sampled_cells": 128
+        },
+        "core_over_500_um": {
+          "continuity_normalized_mse": 0.03245098888874054,
+          "momentum_normalized_mse": 0.01040694396942854,
+          "sampled_cells": 128
+        }
+      }
+    },
+    {
+      "stage": "step800",
+      "radial_relative_l2_percent": 1.899382472038269,
+      "radial_rmse_m_s": 0.4526289105415344,
+      "pressure_relative_l2_percent": 0.6539967656135559,
+      "pressure_rmse_pa": 2619.522216796875,
+      "exit_mass_flow_kg_s": 2.764968641392379,
+      "exit_thrust_n": 1341.133431657257,
+      "physics": {
+        "near_wall_0_5_um": {
+          "continuity_normalized_mse": 3452.39794921875,
+          "momentum_normalized_mse": 569.5689697265625,
+          "sampled_cells": 128
+        },
+        "wall_5_50_um": {
+          "continuity_normalized_mse": 108.84637451171875,
+          "momentum_normalized_mse": 17.25469207763672,
+          "sampled_cells": 128
+        },
+        "outer_50_500_um": {
+          "continuity_normalized_mse": 7.825805187225342,
+          "momentum_normalized_mse": 0.5182713866233826,
+          "sampled_cells": 128
+        },
+        "core_over_500_um": {
+          "continuity_normalized_mse": 0.03434855118393898,
+          "momentum_normalized_mse": 0.010551037266850471,
+          "sampled_cells": 128
+        }
+      }
+    },
+    {
+      "stage": "step1200",
+      "radial_relative_l2_percent": 1.8377466201782227,
+      "radial_rmse_m_s": 0.43794089555740356,
+      "pressure_relative_l2_percent": 0.7016326785087585,
+      "pressure_rmse_pa": 2810.323486328125,
+      "exit_mass_flow_kg_s": 2.7702289414501435,
+      "exit_thrust_n": 1345.2098853324412,
+      "physics": {
+        "near_wall_0_5_um": {
+          "continuity_normalized_mse": 5999.39990234375,
+          "momentum_normalized_mse": 675.5000610351562,
+          "sampled_cells": 128
+        },
+        "wall_5_50_um": {
+          "continuity_normalized_mse": 141.35736083984375,
+          "momentum_normalized_mse": 17.682621002197266,
+          "sampled_cells": 128
+        },
+        "outer_50_500_um": {
+          "continuity_normalized_mse": 7.39945125579834,
+          "momentum_normalized_mse": 0.5174115896224976,
+          "sampled_cells": 128
+        },
+        "core_over_500_um": {
+          "continuity_normalized_mse": 0.035807982087135315,
+          "momentum_normalized_mse": 0.01027916744351387,
+          "sampled_cells": 128
+        }
+      }
+    }
+  ]
+}

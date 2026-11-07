@@ -1,0 +1,12 @@
+{
+  "target_height_m": 500.0,
+  "peak_height_m": 0.01624474488198757,
+  "peak_height_error_percent": 99.99675105102361,
+  "touchdown_speed_percent_of_limit": 3.440797653563281,
+  "fuel_remaining_kg": 48.12693673890918,
+  "success": false,
+  "terminal_reason": "touchdown",
+  "episode_return": 3.8910696996323453,
+  "control_steps": 27,
+  "initial_mass_kg": 100.0
+}

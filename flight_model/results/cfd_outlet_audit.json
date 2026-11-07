@@ -1,0 +1,313 @@
+{
+  "source_dir": "data/raw/outlets",
+  "cases": [
+    {
+      "inlet_total_pressure_kpa": 600,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "axial-velocity",
+          "absolute-pressure"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.281778976,
+        "density_max": 1.833755807,
+        "axial-velocity_min": 6.870481722,
+        "axial-velocity_max": 528.2233284,
+        "absolute-pressure_min": 67797.45837,
+        "absolute-pressure_max": 100000.0
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 650,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "absolute-pressure",
+          "axial-velocity",
+          "x-coordinate",
+          "y-coordinate"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.278930457,
+        "density_max": 2.080386005,
+        "axial-velocity_min": 8.39716041,
+        "axial-velocity_max": 495.3179654,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 107204.721
+      },
+      "mass_report": {
+        "inlet_kg_s": 2.776749272598486,
+        "outlet_signed_kg_s": -2.879524534947023,
+        "net_kg_s": -0.10277526234853696,
+        "imbalance_percent_of_inlet": 3.7012798873396195,
+        "pinn_mass_flow_kg_s": 2.764968641392379,
+        "pinn_vs_cfd_outlet_percent": -3.9782919771771215,
+        "source_image": "650.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 700,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "x-coordinate",
+          "y-coordinate",
+          "absolute-pressure",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.298039244,
+        "density_max": 2.181300336,
+        "axial-velocity_min": 10.71296365,
+        "axial-velocity_max": 497.9227843,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 111237.2852
+      },
+      "mass_report": {
+        "inlet_kg_s": 2.992307109162081,
+        "outlet_signed_kg_s": -3.085293401285766,
+        "net_kg_s": -0.09298629212368503,
+        "imbalance_percent_of_inlet": 3.107511653431972,
+        "pinn_mass_flow_kg_s": 2.9865039576242127,
+        "pinn_vs_cfd_outlet_percent": -3.201946486528113,
+        "source_image": "700.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 750,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate"
+        ],
+        "missing_required_fields": [
+          "density",
+          "axial-velocity",
+          "absolute-pressure"
+        ],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929
+      },
+      "mass_report": {
+        "inlet_kg_s": 3.208632273596127,
+        "outlet_signed_kg_s": -3.291603714944311,
+        "net_kg_s": -0.08297144134818435,
+        "imbalance_percent_of_inlet": 2.5858819046033203,
+        "pinn_mass_flow_kg_s": 3.206431404716339,
+        "pinn_vs_cfd_outlet_percent": -2.5875627081497936,
+        "source_image": "750.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 800,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "x-coordinate",
+          "y-coordinate",
+          "absolute-pressure",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.364980753,
+        "density_max": 2.453295858,
+        "axial-velocity_min": 15.7301722,
+        "axial-velocity_max": 502.0342774,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 124008.9262
+      },
+      "mass_report": {
+        "inlet_kg_s": 3.4267212476402,
+        "outlet_signed_kg_s": -3.498844871864319,
+        "net_kg_s": -0.072123624224119,
+        "imbalance_percent_of_inlet": 2.104741501042336,
+        "pinn_mass_flow_kg_s": 3.4218757520047265,
+        "pinn_vs_cfd_outlet_percent": -2.1998437392447308,
+        "source_image": "800.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 850,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "x-coordinate",
+          "y-coordinate",
+          "absolute-pressure",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.419337033,
+        "density_max": 2.598735408,
+        "axial-velocity_min": 18.44953647,
+        "axial-velocity_max": 504.8938643,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 131167.0988
+      },
+      "mass_report": {
+        "inlet_kg_s": 3.645342715747602,
+        "outlet_signed_kg_s": -3.70718834715811,
+        "net_kg_s": -0.06184563141050825,
+        "imbalance_percent_of_inlet": 1.696565624497797,
+        "pinn_mass_flow_kg_s": 3.6355197842754623,
+        "pinn_vs_cfd_outlet_percent": -1.9332323089974164,
+        "source_image": "850.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 900,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "x-coordinate",
+          "y-coordinate",
+          "absolute-pressure",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.487809936,
+        "density_max": 2.745746376,
+        "axial-velocity_min": 21.21934707,
+        "axial-velocity_max": 508.5452354,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 138520.6123
+      },
+      "mass_report": {
+        "inlet_kg_s": 3.863004509540808,
+        "outlet_signed_kg_s": -3.916675360717043,
+        "net_kg_s": -0.05367085117623516,
+        "imbalance_percent_of_inlet": 1.389355126137685,
+        "pinn_mass_flow_kg_s": 3.848171634381293,
+        "pinn_vs_cfd_outlet_percent": -1.7490274282831726,
+        "source_image": "900.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 950,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "x-coordinate",
+          "y-coordinate",
+          "absolute-pressure",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.566454124,
+        "density_max": 2.894763048,
+        "axial-velocity_min": 23.89202113,
+        "axial-velocity_max": 512.5654918,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 145937.2931
+      },
+      "mass_report": {
+        "inlet_kg_s": 4.078416672420086,
+        "outlet_signed_kg_s": -4.126841452014692,
+        "net_kg_s": -0.04842477959460645,
+        "imbalance_percent_of_inlet": 1.1873426254378208,
+        "pinn_mass_flow_kg_s": 4.056602716766659,
+        "pinn_vs_cfd_outlet_percent": -1.7019974250220569,
+        "source_image": "950.png"
+      }
+    },
+    {
+      "inlet_total_pressure_kpa": 1000,
+      "profile": {
+        "rows": 91,
+        "columns": [
+          "cellnumber",
+          "x-coordinate",
+          "y-coordinate",
+          "density",
+          "absolute-pressure",
+          "y-coordinate",
+          "x-coordinate",
+          "axial-velocity"
+        ],
+        "missing_required_fields": [],
+        "face_x_min_m": 0.1700000018,
+        "face_x_max_m": 0.1700008065,
+        "face_radius_min_m": 0.0002507936442,
+        "face_radius_max_m": 0.03159949929,
+        "density_min": 1.65210378,
+        "density_max": 3.045846916,
+        "axial-velocity_min": 26.3939137,
+        "axial-velocity_max": 515.7967692,
+        "absolute-pressure_min": 100000.0,
+        "absolute-pressure_max": 153496.8606
+      },
+      "mass_report": {
+        "inlet_kg_s": 4.291527494617229,
+        "outlet_signed_kg_s": -4.337520957906595,
+        "net_kg_s": -0.045993463289366154,
+        "imbalance_percent_of_inlet": 1.0717271029267497,
+        "pinn_mass_flow_kg_s": 4.255440263801563,
+        "pinn_vs_cfd_outlet_percent": -1.8923411529669438,
+        "source_image": "1000kpa.png"
+      }
+    }
+  ]
+}

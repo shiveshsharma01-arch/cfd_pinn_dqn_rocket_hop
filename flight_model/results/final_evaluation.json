@@ -1,0 +1,63 @@
+{
+  "status": "provisional PINN-map comparison; target altitude objective",
+  "selection_rule": "seed 2 selected by nine development scenarios before this evaluation",
+  "nozzle_map_sha256": "ca3a7b51bdea71d4598fec7b71103185a1b8fbcb5e8a8273b87fdecb124549b3",
+  "scenarios": [
+    [
+      1700.0,
+      97.0
+    ],
+    [
+      1700.0,
+      103.0
+    ],
+    [
+      2300.0,
+      97.0
+    ],
+    [
+      2300.0,
+      103.0
+    ],
+    [
+      2700.0,
+      97.0
+    ],
+    [
+      2700.0,
+      103.0
+    ]
+  ],
+  "policies": {
+    "dqn_seed0": {
+      "mean_absolute_apogee_error_m": 348.72255965617177,
+      "mean_fuel_used_kg": 48.841617264058186,
+      "within_100m_count": 0,
+      "scenarios": 6
+    },
+    "dqn_seed1": {
+      "mean_absolute_apogee_error_m": 422.615453982881,
+      "mean_fuel_used_kg": 50.0,
+      "within_100m_count": 2,
+      "scenarios": 6
+    },
+    "dqn_seed2": {
+      "mean_absolute_apogee_error_m": 117.7750958763063,
+      "mean_fuel_used_kg": 47.59151627100715,
+      "within_100m_count": 3,
+      "scenarios": 6
+    },
+    "fixed_800": {
+      "mean_absolute_apogee_error_m": 693.5053438834535,
+      "mean_fuel_used_kg": 50.0,
+      "within_100m_count": 1,
+      "scenarios": 6
+    },
+    "ballistic_cutoff_1000": {
+      "mean_absolute_apogee_error_m": 114.74544164041679,
+      "mean_fuel_used_kg": 41.135922550081425,
+      "within_100m_count": 3,
+      "scenarios": 6
+    }
+  }
+}

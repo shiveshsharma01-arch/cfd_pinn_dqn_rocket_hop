@@ -1,0 +1,79 @@
+{
+  "reference": {
+    "success_percent": 100.0,
+    "mean_peak_height_error_percent": 2.7710934899747373,
+    "mean_touchdown_speed_percent_of_limit": 22.04939043914433,
+    "mean_fuel_remaining_percent_of_initial_supply": 23.169445236642023,
+    "scenarios": 3
+  },
+  "pure_step000000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 23.370500938408075,
+    "mean_touchdown_speed_percent_of_limit": 1499.2775972981788,
+    "mean_fuel_remaining_percent_of_initial_supply": 42.319680535149594,
+    "scenarios": 3
+  },
+  "hybrid_step000000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 23.370500938408075,
+    "mean_touchdown_speed_percent_of_limit": 40.654923668663976,
+    "mean_fuel_remaining_percent_of_initial_supply": 18.62873944590871,
+    "scenarios": 3
+  },
+  "pure_step030000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 634.7483092787986,
+    "mean_touchdown_speed_percent_of_limit": 0.0,
+    "mean_fuel_remaining_percent_of_initial_supply": 0.0,
+    "scenarios": 3
+  },
+  "hybrid_step030000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 634.7483092787986,
+    "mean_touchdown_speed_percent_of_limit": 0.0,
+    "mean_fuel_remaining_percent_of_initial_supply": 0.0,
+    "scenarios": 3
+  },
+  "pure_step060000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 300.8519975144416,
+    "mean_touchdown_speed_percent_of_limit": 2376.0850772651343,
+    "mean_fuel_remaining_percent_of_initial_supply": 34.571166695326106,
+    "scenarios": 3
+  },
+  "hybrid_step060000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 401.0419265198832,
+    "mean_touchdown_speed_percent_of_limit": 3110.3822701415925,
+    "mean_fuel_remaining_percent_of_initial_supply": 0.0,
+    "scenarios": 3
+  },
+  "pure_step090000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 65.70158467907459,
+    "mean_touchdown_speed_percent_of_limit": 1212.5484048501444,
+    "mean_fuel_remaining_percent_of_initial_supply": 6.9328196424033495,
+    "scenarios": 3
+  },
+  "hybrid_step090000": {
+    "success_percent": 66.66666666666667,
+    "mean_peak_height_error_percent": 65.70158467907459,
+    "mean_touchdown_speed_percent_of_limit": 1097.6137886957697,
+    "mean_fuel_remaining_percent_of_initial_supply": 15.542195710000563,
+    "scenarios": 3
+  },
+  "pure_step120000": {
+    "success_percent": 0.0,
+    "mean_peak_height_error_percent": 3.0251141440123317,
+    "mean_touchdown_speed_percent_of_limit": 233.38673368980207,
+    "mean_fuel_remaining_percent_of_initial_supply": 12.281560387715636,
+    "scenarios": 3
+  },
+  "hybrid_step120000": {
+    "success_percent": 66.66666666666667,
+    "mean_peak_height_error_percent": 3.0251141440123317,
+    "mean_touchdown_speed_percent_of_limit": 70.63470320607698,
+    "mean_fuel_remaining_percent_of_initial_supply": 20.64064651727966,
+    "scenarios": 3
+  }
+}

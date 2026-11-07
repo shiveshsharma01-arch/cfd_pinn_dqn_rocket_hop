@@ -1,0 +1,44 @@
+{
+  "dqn_only": {
+    "cases": 21,
+    "success_percent": 4.761904761904762,
+    "mean_peak_height_error_percent": 3.358507190378649,
+    "maximum_peak_height_error_percent": 4.73319297414273,
+    "touchdowns": 21,
+    "mean_touchdown_speed_percent_of_5_mps_limit": 215.46556933895704,
+    "maximum_touchdown_speed_percent_of_5_mps_limit": 288.3567021726937,
+    "minimum_fuel_remaining_kg": 5.747493508177605
+  },
+  "dqn_ascent_guided_descent": {
+    "cases": 21,
+    "success_percent": 100.0,
+    "mean_peak_height_error_percent": 3.358507190378649,
+    "maximum_peak_height_error_percent": 4.73319297414273,
+    "touchdowns": 21,
+    "mean_touchdown_speed_percent_of_5_mps_limit": 24.15039173856342,
+    "maximum_touchdown_speed_percent_of_5_mps_limit": 38.04469226566921,
+    "minimum_fuel_remaining_kg": 10.397091405655338
+  },
+  "timed_ascent_guided_descent": {
+    "cases": 21,
+    "success_percent": 100.0,
+    "mean_peak_height_error_percent": 2.4037815020552706,
+    "maximum_peak_height_error_percent": 5.3436696929857135,
+    "touchdowns": 21,
+    "mean_touchdown_speed_percent_of_5_mps_limit": 28.254005442667864,
+    "maximum_touchdown_speed_percent_of_5_mps_limit": 45.85605744518394,
+    "minimum_fuel_remaining_kg": 10.34703938396374
+  },
+  "evaluation_scope": {
+    "target_height_m": 500.0,
+    "height_tolerance_percent": 10.0,
+    "touchdown_speed_limit_m_s": 5.0,
+    "minimum_fuel_remaining_kg": 5.0,
+    "initial_mass_range_kg": [
+      99.0,
+      101.0
+    ],
+    "initial_mass_increment_kg": 0.1,
+    "note": "Deterministic validation sweep; not unseen CFD or flight-test data."
+  }
+}

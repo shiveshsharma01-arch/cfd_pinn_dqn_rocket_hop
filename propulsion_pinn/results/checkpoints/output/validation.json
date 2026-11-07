@@ -1,0 +1,177 @@
+{
+  "model": "supervised field surrogate with ideal-gas and axisymmetric continuity constraints",
+  "physics_not_included": "compressible momentum, energy and SST transport equations",
+  "training_pressures_kpa": [
+    600,
+    700,
+    750,
+    800,
+    850,
+    900,
+    1000
+  ],
+  "validation_pressure_kpa": 650,
+  "validation_pinn": {
+    "ux": {
+      "rmse": 53.239131927490234,
+      "mae": 27.300586700439453,
+      "unit": "m/s"
+    },
+    "ur": {
+      "rmse": 6.529077529907227,
+      "mae": 4.241034507751465,
+      "unit": "m/s"
+    },
+    "pressure": {
+      "rmse": 19888.494140625,
+      "mae": 13451.802734375,
+      "unit": "Pa"
+    },
+    "temperature": {
+      "rmse": 9.62450885772705,
+      "mae": 5.9963908195495605,
+      "unit": "K"
+    },
+    "density": {
+      "rmse": 0.2641892433166504,
+      "mae": 0.1965763419866562,
+      "unit": "kg/m^3"
+    }
+  },
+  "validation_linear_interpolation": {
+    "ux": {
+      "rmse": 1.3024505376815796,
+      "mae": 0.46960365772247314,
+      "unit": "m/s"
+    },
+    "ur": {
+      "rmse": 0.13482895493507385,
+      "mae": 0.06818349659442902,
+      "unit": "m/s"
+    },
+    "pressure": {
+      "rmse": 130.5580596923828,
+      "mae": 83.7861099243164,
+      "unit": "Pa"
+    },
+    "temperature": {
+      "rmse": 0.2823730409145355,
+      "mae": 0.10407768934965134,
+      "unit": "K"
+    },
+    "density": {
+      "rmse": 0.0024654248263686895,
+      "mae": 0.001369999605230987,
+      "unit": "kg/m^3"
+    }
+  },
+  "loss_history": [
+    {
+      "step": 1,
+      "data_loss": 0.9807575345039368,
+      "continuity_loss": 0.17164286971092224
+    },
+    {
+      "step": 100,
+      "data_loss": 0.3685470223426819,
+      "continuity_loss": 0.2160152941942215
+    },
+    {
+      "step": 200,
+      "data_loss": 0.3500787913799286,
+      "continuity_loss": 0.1104716807603836
+    },
+    {
+      "step": 300,
+      "data_loss": 0.244363933801651,
+      "continuity_loss": 0.3531675934791565
+    },
+    {
+      "step": 400,
+      "data_loss": 0.17994479835033417,
+      "continuity_loss": 0.039791613817214966
+    },
+    {
+      "step": 500,
+      "data_loss": 0.14882731437683105,
+      "continuity_loss": 0.03689011186361313
+    },
+    {
+      "step": 600,
+      "data_loss": 0.1203078106045723,
+      "continuity_loss": 0.10008396953344345
+    },
+    {
+      "step": 700,
+      "data_loss": 0.09415129572153091,
+      "continuity_loss": 0.02441282942891121
+    },
+    {
+      "step": 800,
+      "data_loss": 0.08381976187229156,
+      "continuity_loss": 0.02763986587524414
+    },
+    {
+      "step": 900,
+      "data_loss": 0.06304654479026794,
+      "continuity_loss": 0.24548768997192383
+    },
+    {
+      "step": 1000,
+      "data_loss": 0.07230599224567413,
+      "continuity_loss": 0.379006952047348
+    },
+    {
+      "step": 1100,
+      "data_loss": 0.06672994792461395,
+      "continuity_loss": 0.022574905306100845
+    },
+    {
+      "step": 1200,
+      "data_loss": 0.06013553962111473,
+      "continuity_loss": 0.014551449567079544
+    },
+    {
+      "step": 1300,
+      "data_loss": 0.06443823128938675,
+      "continuity_loss": 0.056070029735565186
+    },
+    {
+      "step": 1400,
+      "data_loss": 0.05640675872564316,
+      "continuity_loss": 0.012475996278226376
+    },
+    {
+      "step": 1500,
+      "data_loss": 0.060251958668231964,
+      "continuity_loss": 0.011381499469280243
+    },
+    {
+      "step": 1600,
+      "data_loss": 0.08233459293842316,
+      "continuity_loss": 0.16628140211105347
+    },
+    {
+      "step": 1700,
+      "data_loss": 0.04992527887225151,
+      "continuity_loss": 0.14814971387386322
+    },
+    {
+      "step": 1800,
+      "data_loss": 0.059269681572914124,
+      "continuity_loss": 0.026676960289478302
+    },
+    {
+      "step": 1900,
+      "data_loss": 0.052186645567417145,
+      "continuity_loss": 0.01829683780670166
+    },
+    {
+      "step": 2000,
+      "data_loss": 0.045675814151763916,
+      "continuity_loss": 0.04054250568151474
+    }
+  ],
+  "device": "cuda",
+  "torch_version": "2.6.0+cu124"
+}

@@ -1,0 +1,13 @@
+{
+  "checkpoint": "selected_dqn.pt",
+  "source_checkpoint": "flight_model/results/landing/seed0_v3/step120000.pt",
+  "nozzle_map": "propulsion_pinn/results/checkpoints/final/exit_performance.csv",
+  "nozzle_map_sha256": "ca3a7b51bdea71d4598fec7b71103185a1b8fbcb5e8a8273b87fdecb124549b3",
+  "training": "120,000-step DQN, one seed, reference replay seeding and behavior-cloning auxiliary loss",
+  "recommended_policy": "DQN ascent + guided descent",
+  "descent_rule": "900 kPa stopping-distance rule; below 20 m, track 1+sqrt(4h) m/s downward-speed envelope",
+  "actuator_time_constant_s": 0.05,
+  "control_interval_s": 0.05,
+  "integration_step_s": 0.01,
+  "limitation": "DQN alone is evaluated separately and does not meet the landing criteria. CFD nozzle map and point-mass flight model are educational approximations."
+}

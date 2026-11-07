@@ -1,0 +1,6 @@
+# Tested with Python 3.13; install Blender 5.2 separately for animation.
+numpy>=2.4,<3
+pandas>=3,<4
+scipy>=1.16,<2
+torch>=2.6,<3
+opencv-python>=4.10,<5

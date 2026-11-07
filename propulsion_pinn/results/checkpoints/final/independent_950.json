@@ -1,0 +1,38 @@
+{
+  "case": "950 kPa CFD field; not used in PINN training or checkpoint selection",
+  "cells": 30892,
+  "pinn": {
+    "axial_velocity": {
+      "rmse": 3.37646746635437,
+      "relative_l2_percent": 1.0291147232055664
+    },
+    "radial_velocity": {
+      "rmse": 0.5717363357543945,
+      "relative_l2_percent": 2.3463683128356934
+    },
+    "pressure": {
+      "rmse": 3107.863525390625,
+      "relative_l2_percent": 0.5311006903648376,
+      "mean_absolute_percent_error": 0.5212896466255188
+    },
+    "temperature": {
+      "rmse": 0.6874438524246216,
+      "relative_l2_percent": 0.2770271301269531
+    }
+  },
+  "linear_interpolation_900_1000": {
+    "axial_velocity": {
+      "relative_l2_percent": 0.02677343040704727
+    },
+    "radial_velocity": {
+      "relative_l2_percent": 0.05415373668074608
+    },
+    "pressure": {
+      "relative_l2_percent": 0.0014009267324581742
+    },
+    "temperature": {
+      "relative_l2_percent": 0.005461209453642368
+    }
+  },
+  "caveat": "Field errors are against Fluent cell data, not experimental truth or integrated thrust"
+}

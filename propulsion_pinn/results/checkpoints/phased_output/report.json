@@ -1,0 +1,179 @@
+{
+  "train_pressures_kpa": [
+    600,
+    700,
+    750,
+    800,
+    850,
+    900,
+    1000
+  ],
+  "validation_pressure_kpa": 650,
+  "interpolation_errors": {
+    "ux": {
+      "rmse": 1.3024505376815796,
+      "mae": 0.46960365772247314,
+      "unit": "m/s"
+    },
+    "ur": {
+      "rmse": 0.13482895493507385,
+      "mae": 0.06818349659442902,
+      "unit": "m/s"
+    },
+    "pressure": {
+      "rmse": 130.5580596923828,
+      "mae": 83.7861099243164,
+      "unit": "Pa"
+    },
+    "temperature": {
+      "rmse": 0.2823730409145355,
+      "mae": 0.10407768934965134,
+      "unit": "K"
+    },
+    "density": {
+      "rmse": 0.0024654248263686895,
+      "mae": 0.001369999605230987,
+      "unit": "kg/m^3"
+    }
+  },
+  "stages": [
+    {
+      "stage": "screen_tanh",
+      "validation_normalized_mse": 0.034627318382263184,
+      "field_errors": {
+        "ux": {
+          "rmse": 44.28602600097656,
+          "mae": 23.40884017944336,
+          "unit": "m/s"
+        },
+        "ur": {
+          "rmse": 5.539112091064453,
+          "mae": 3.1931674480438232,
+          "unit": "m/s"
+        },
+        "pressure": {
+          "rmse": 7397.341796875,
+          "mae": 5042.35595703125,
+          "unit": "Pa"
+        },
+        "temperature": {
+          "rmse": 7.205214500427246,
+          "mae": 4.515563488006592,
+          "unit": "K"
+        },
+        "density": {
+          "rmse": 0.13078908622264862,
+          "mae": 0.09386623650789261,
+          "unit": "kg/m^3"
+        }
+      }
+    },
+    {
+      "stage": "screen_silu",
+      "validation_normalized_mse": 0.04639257490634918,
+      "field_errors": {
+        "ux": {
+          "rmse": 49.79777145385742,
+          "mae": 27.4385929107666,
+          "unit": "m/s"
+        },
+        "ur": {
+          "rmse": 6.2613654136657715,
+          "mae": 3.9036009311676025,
+          "unit": "m/s"
+        },
+        "pressure": {
+          "rmse": 17874.29296875,
+          "mae": 11933.390625,
+          "unit": "Pa"
+        },
+        "temperature": {
+          "rmse": 8.960479736328125,
+          "mae": 5.6645307540893555,
+          "unit": "K"
+        },
+        "density": {
+          "rmse": 0.23303855955600739,
+          "mae": 0.16856855154037476,
+          "unit": "kg/m^3"
+        }
+      }
+    },
+    {
+      "stage": "joint",
+      "activation": "tanh",
+      "validation_normalized_mse": 0.03258400782942772,
+      "field_errors": {
+        "ux": {
+          "rmse": 42.18994140625,
+          "mae": 23.620473861694336,
+          "unit": "m/s"
+        },
+        "ur": {
+          "rmse": 5.403007984161377,
+          "mae": 3.246833324432373,
+          "unit": "m/s"
+        },
+        "pressure": {
+          "rmse": 23590.404296875,
+          "mae": 15148.4033203125,
+          "unit": "Pa"
+        },
+        "temperature": {
+          "rmse": 6.537609577178955,
+          "mae": 3.9107470512390137,
+          "unit": "K"
+        },
+        "density": {
+          "rmse": 0.2953099310398102,
+          "mae": 0.203474760055542,
+          "unit": "kg/m^3"
+        }
+      }
+    },
+    {
+      "stage": "lbfgs",
+      "activation": "tanh",
+      "validation_normalized_mse": 0.028941195458173752,
+      "field_errors": {
+        "ux": {
+          "rmse": 40.195594787597656,
+          "mae": 19.171573638916016,
+          "unit": "m/s"
+        },
+        "ur": {
+          "rmse": 5.284071445465088,
+          "mae": 2.9291818141937256,
+          "unit": "m/s"
+        },
+        "pressure": {
+          "rmse": 18233.150390625,
+          "mae": 12481.1591796875,
+          "unit": "Pa"
+        },
+        "temperature": {
+          "rmse": 5.590732574462891,
+          "mae": 3.1994988918304443,
+          "unit": "K"
+        },
+        "density": {
+          "rmse": 0.22946710884571075,
+          "mae": 0.16247320175170898,
+          "unit": "kg/m^3"
+        }
+      }
+    }
+  ],
+  "torch_version": "2.6.0+cu124",
+  "best_stage": "lbfgs",
+  "best_validation_normalized_mse": 0.028941195458173752,
+  "configuration": {
+    "screen_steps": 1500,
+    "joint_steps": 2000,
+    "lbfgs_steps": 20,
+    "batch_size": 1024,
+    "physics_batch": 256,
+    "physics_weight": 0.05,
+    "seed": 0
+  }
+}

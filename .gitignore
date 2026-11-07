@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+*.blend1
+draft_frames/
+failed_frames/
+render_frames/
+*.wbpj
+P2_files/
+.DS_Store

@@ -1,0 +1,14 @@
+{
+  "seed": 0,
+  "steps": 120000,
+  "training_episodes": 324,
+  "demonstration_episodes": 30,
+  "demonstration_success_percent": 100.0,
+  "nozzle_map_sha256": "ca3a7b51bdea71d4598fec7b71103185a1b8fbcb5e8a8273b87fdecb124549b3",
+  "final_checkpoint": "flight_model/results/landing/seed0_v2/step120000.pt",
+  "training_log": "flight_model/results/landing/seed0_v2/training_episodes.csv",
+  "recent_success_percent": 0.0,
+  "recent_mean_loss": 0.23484759036218747,
+  "torch_version": "2.6.0+cu124",
+  "numpy_version": "2.4.4"
+}

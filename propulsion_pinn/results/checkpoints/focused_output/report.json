@@ -1,0 +1,292 @@
+{
+  "model": "shared Tanh trunk with separate output heads",
+  "train_kpa": [
+    600,
+    700,
+    750,
+    800,
+    850,
+    900,
+    1000
+  ],
+  "validation_kpa": 650,
+  "wall": {
+    "wall_source": "upper envelope of 800 kPa cell centres",
+    "wall_min_radius_m": 0.024299687875785864,
+    "wall_inlet_radius_m": 0.05000000074505806,
+    "wall_exit_radius_m": 0.031599998468472196
+  },
+  "seed": 0,
+  "device": "cuda",
+  "stage_steps": {
+    "stage1": 1000,
+    "stage2": 2000,
+    "stage3": 2000,
+    "stage4": 4000,
+    "lbfgs_max_iter": 100
+  },
+  "stages": [
+    {
+      "name": "stage1",
+      "weights": {
+        "data_ux": 1.0,
+        "data_ur": 1.0,
+        "data_p": 1.0,
+        "data_t": 1.0,
+        "data_k": 0.25,
+        "data_mut": 0.25,
+        "boundary": 1.0,
+        "continuity": 0.0,
+        "momentum": 0.0
+      },
+      "joint_relative_score": 1.3328190488355203,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 80.84884643554688,
+          "relative_l2_percent": 24.9832820892334
+        },
+        "radial_velocity": {
+          "rmse": 5.23219108581543,
+          "relative_l2_percent": 21.956024169921875
+        },
+        "pressure": {
+          "rmse": 8152.43408203125,
+          "relative_l2_percent": 2.03535795211792,
+          "mean_absolute_percent_error": 1.7050838470458984
+        },
+        "temperature": {
+          "rmse": 7.362801551818848,
+          "relative_l2_percent": 2.960359811782837
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "name": "stage2",
+      "weights": {
+        "data_ux": 1.0,
+        "data_ur": 4.0,
+        "data_p": 1.0,
+        "data_t": 1.0,
+        "data_k": 0.25,
+        "data_mut": 0.25,
+        "boundary": 1.0,
+        "continuity": 0.1,
+        "momentum": 0.0
+      },
+      "joint_relative_score": 1.3642632653596165,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 35.674835205078125,
+          "relative_l2_percent": 11.023959159851074
+        },
+        "radial_velocity": {
+          "rmse": 4.59635066986084,
+          "relative_l2_percent": 19.287826538085938
+        },
+        "pressure": {
+          "rmse": 9225.9072265625,
+          "relative_l2_percent": 2.3033640384674072,
+          "mean_absolute_percent_error": 2.555103302001953
+        },
+        "temperature": {
+          "rmse": 5.486244201660156,
+          "relative_l2_percent": 2.20585298538208
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "name": "stage3",
+      "weights": {
+        "data_ux": 1.0,
+        "data_ur": 2.0,
+        "data_p": 4.0,
+        "data_t": 1.0,
+        "data_k": 0.25,
+        "data_mut": 0.25,
+        "boundary": 1.0,
+        "continuity": 0.1,
+        "momentum": 0.05
+      },
+      "joint_relative_score": 1.0186859436093294,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 34.48051452636719,
+          "relative_l2_percent": 10.654898643493652
+        },
+        "radial_velocity": {
+          "rmse": 4.610590934753418,
+          "relative_l2_percent": 19.34758186340332
+        },
+        "pressure": {
+          "rmse": 5521.248046875,
+          "relative_l2_percent": 1.3784490823745728,
+          "mean_absolute_percent_error": 1.1780685186386108
+        },
+        "temperature": {
+          "rmse": 4.611389636993408,
+          "relative_l2_percent": 1.8541003465652466
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "name": "stage4",
+      "weights": {
+        "data_ux": 1.0,
+        "data_ur": 2.0,
+        "data_p": 2.0,
+        "data_t": 1.0,
+        "data_k": 0.25,
+        "data_mut": 0.25,
+        "boundary": 1.0,
+        "continuity": 0.29009296997067513,
+        "momentum": 0.14696085788291668
+      },
+      "joint_relative_score": 0.9303302471935109,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 34.869285583496094,
+          "relative_l2_percent": 10.77503490447998
+        },
+        "radial_velocity": {
+          "rmse": 4.483470916748047,
+          "relative_l2_percent": 18.814144134521484
+        },
+        "pressure": {
+          "rmse": 4725.80322265625,
+          "relative_l2_percent": 1.1798564195632935,
+          "mean_absolute_percent_error": 1.0264067649841309
+        },
+        "temperature": {
+          "rmse": 3.116741180419922,
+          "relative_l2_percent": 1.2531476020812988
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "name": "stage5_lbfgs",
+      "weights": {
+        "data_ux": 1.0,
+        "data_ur": 2.0,
+        "data_p": 2.0,
+        "data_t": 1.0,
+        "data_k": 0.25,
+        "data_mut": 0.25,
+        "boundary": 1.0,
+        "continuity": 0.29009296997067513,
+        "momentum": 0.14696085788291668
+      },
+      "joint_relative_score": 1.3195343654589284,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 34.082237243652344,
+          "relative_l2_percent": 10.531827926635742
+        },
+        "radial_velocity": {
+          "rmse": 4.314261436462402,
+          "relative_l2_percent": 18.104084014892578
+        },
+        "pressure": {
+          "rmse": 9075.9052734375,
+          "relative_l2_percent": 2.2659144401550293,
+          "mean_absolute_percent_error": 1.3763936758041382
+        },
+        "temperature": {
+          "rmse": 3.2861077785491943,
+          "relative_l2_percent": 1.321244478225708
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    }
+  ],
+  "best_stage": "stage4",
+  "best_joint_relative_score": 0.9303302471935109
+}

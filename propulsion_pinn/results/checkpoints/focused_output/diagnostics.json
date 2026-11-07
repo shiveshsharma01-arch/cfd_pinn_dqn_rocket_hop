@@ -1,0 +1,141 @@
+{
+  "checkpoint": "propulsion_pinn\\focused_output\\best.pt",
+  "cases": {
+    "600": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 23.663713455200195,
+        "rmse_m_s": 4.4091362953186035,
+        "relative_l2_percent": 18.632478713989258,
+        "mean_bias_m_s": -0.5174700021743774
+      },
+      "pressure_relative_l2_percent": 1.102950930595398
+    },
+    "700": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.083904266357422,
+        "rmse_m_s": 4.626866340637207,
+        "relative_l2_percent": 19.211448669433594,
+        "mean_bias_m_s": -0.899219274520874
+      },
+      "pressure_relative_l2_percent": 0.9162538051605225
+    },
+    "750": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.073354721069336,
+        "rmse_m_s": 4.55961275100708,
+        "relative_l2_percent": 18.94049835205078,
+        "mean_bias_m_s": -0.8219132423400879
+      },
+      "pressure_relative_l2_percent": 0.8070898652076721
+    },
+    "800": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.1651668548584,
+        "rmse_m_s": 4.579478740692139,
+        "relative_l2_percent": 18.950742721557617,
+        "mean_bias_m_s": -0.8591886758804321
+      },
+      "pressure_relative_l2_percent": 0.8598445653915405
+    },
+    "850": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.243070602416992,
+        "rmse_m_s": 4.594996452331543,
+        "relative_l2_percent": 18.953853607177734,
+        "mean_bias_m_s": -0.8834519386291504
+      },
+      "pressure_relative_l2_percent": 0.8377776741981506
+    },
+    "900": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.309326171875,
+        "rmse_m_s": 4.607049465179443,
+        "relative_l2_percent": 18.9517822265625,
+        "mean_bias_m_s": -0.8988741040229797
+      },
+      "pressure_relative_l2_percent": 0.8330001831054688
+    },
+    "1000": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 24.417465209960938,
+        "rmse_m_s": 4.633097171783447,
+        "relative_l2_percent": 18.97452163696289,
+        "mean_bias_m_s": -0.9420549273490906
+      },
+      "pressure_relative_l2_percent": 0.917145848274231
+    },
+    "650": {
+      "radial": {
+        "count": 30892,
+        "reference_rms_m_s": 23.830322265625,
+        "rmse_m_s": 4.483471870422363,
+        "relative_l2_percent": 18.814146041870117,
+        "mean_bias_m_s": -0.6746364831924438
+      },
+      "pressure_relative_l2_percent": 1.1798553466796875
+    }
+  },
+  "validation_regions": {
+    "converging_x_lt_55mm": {
+      "count": 11732,
+      "reference_rms_m_s": 28.431163787841797,
+      "rmse_m_s": 5.778886318206787,
+      "relative_l2_percent": 20.32588768005371,
+      "mean_bias_m_s": 0.14415691792964935
+    },
+    "throat_55_to_80mm": {
+      "count": 3826,
+      "reference_rms_m_s": 12.151841163635254,
+      "rmse_m_s": 2.6412112712860107,
+      "relative_l2_percent": 21.735071182250977,
+      "mean_bias_m_s": -0.7702296376228333
+    },
+    "diverging_x_ge_80mm": {
+      "count": 15334,
+      "reference_rms_m_s": 22.108089447021484,
+      "rmse_m_s": 3.6339054107666016,
+      "relative_l2_percent": 16.436994552612305,
+      "mean_bias_m_s": -1.277241587638855
+    },
+    "core_r_over_wall_lt_0.5": {
+      "count": 10629,
+      "reference_rms_m_s": 11.594866752624512,
+      "rmse_m_s": 0.9812482595443726,
+      "relative_l2_percent": 8.46278190612793,
+      "mean_bias_m_s": 0.13944260776042938
+    },
+    "outer_r_over_wall_ge_0.8": {
+      "count": 13982,
+      "reference_rms_m_s": 29.61074447631836,
+      "rmse_m_s": 6.586221218109131,
+      "relative_l2_percent": 22.242673873901367,
+      "mean_bias_m_s": -1.6507360935211182
+    },
+    "low_radial_abs_lt_5ms": {
+      "count": 6736,
+      "reference_rms_m_s": 2.7146029472351074,
+      "rmse_m_s": 3.9251389503479004,
+      "relative_l2_percent": 144.5934600830078,
+      "mean_bias_m_s": -0.4109655022621155
+    },
+    "high_radial_abs_ge_5ms": {
+      "count": 24156,
+      "reference_rms_m_s": 26.91070556640625,
+      "rmse_m_s": 4.627167701721191,
+      "relative_l2_percent": 17.194522857666016,
+      "mean_bias_m_s": -0.7481623291969299
+    }
+  },
+  "boundary_probe": {
+    "wall_axial_rms_m_s": 105.94251251220703,
+    "wall_radial_rms_m_s": 20.680395126342773,
+    "axis_radial_rms_m_s": 0.5030373930931091
+  }
+}

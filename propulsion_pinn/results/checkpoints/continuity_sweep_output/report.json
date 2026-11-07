@@ -1,0 +1,140 @@
+{
+  "source_checkpoint": "propulsion_pinn\\four_loss_output\\stage3.pt",
+  "steps_per_candidate": 1000,
+  "momentum_weight_fixed": 0.14475065269396337,
+  "data_weight": 1.0,
+  "boundary_weight": 1.0,
+  "wall": {
+    "wall_source": "upper envelope of 800 kPa cell centres",
+    "wall_min_radius_m": 0.024299687875785864,
+    "wall_inlet_radius_m": 0.05000000074505806,
+    "wall_exit_radius_m": 0.031599998468472196
+  },
+  "validation_pressure_kpa": 650,
+  "candidates": [
+    {
+      "continuity_weight": 0.2828440868880051,
+      "momentum_weight": 0.14475065269396337,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 38.32341003417969,
+          "relative_l2_percent": 11.842401504516602
+        },
+        "radial_velocity": {
+          "rmse": 4.66674280166626,
+          "relative_l2_percent": 19.583213806152344
+        },
+        "pressure": {
+          "rmse": 4560.70263671875,
+          "relative_l2_percent": 1.1386371850967407,
+          "mean_absolute_percent_error": 1.1163997650146484
+        },
+        "temperature": {
+          "rmse": 3.469099760055542,
+          "relative_l2_percent": 1.394819974899292
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "continuity_weight": 0.6,
+      "momentum_weight": 0.14475065269396337,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 38.29520797729492,
+          "relative_l2_percent": 11.833686828613281
+        },
+        "radial_velocity": {
+          "rmse": 4.679656505584717,
+          "relative_l2_percent": 19.637401580810547
+        },
+        "pressure": {
+          "rmse": 4955.0517578125,
+          "relative_l2_percent": 1.2370911836624146,
+          "mean_absolute_percent_error": 1.1821706295013428
+        },
+        "temperature": {
+          "rmse": 3.5075430870056152,
+          "relative_l2_percent": 1.410277009010315
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    },
+    {
+      "continuity_weight": 1.0,
+      "momentum_weight": 0.14475065269396337,
+      "metrics": {
+        "axial_velocity": {
+          "rmse": 38.327735900878906,
+          "relative_l2_percent": 11.843737602233887
+        },
+        "radial_velocity": {
+          "rmse": 4.694979667663574,
+          "relative_l2_percent": 19.701704025268555
+        },
+        "pressure": {
+          "rmse": 5344.16943359375,
+          "relative_l2_percent": 1.3342393636703491,
+          "mean_absolute_percent_error": 1.227982521057129
+        },
+        "temperature": {
+          "rmse": 3.524301290512085,
+          "relative_l2_percent": 1.4170150756835938
+        },
+        "interpolation": {
+          "axial_velocity": {
+            "rmse": 1.3024505376815796,
+            "relative_l2_percent": 0.40247273445129395
+          },
+          "radial_velocity": {
+            "rmse": 0.13482895493507385,
+            "relative_l2_percent": 0.565787136554718
+          },
+          "pressure": {
+            "rmse": 130.5580596923828,
+            "relative_l2_percent": 0.03259547799825668
+          },
+          "temperature": {
+            "rmse": 0.2823730409145355,
+            "relative_l2_percent": 0.11353372037410736
+          }
+        }
+      }
+    }
+  ],
+  "best_continuity_weight_by_joint_metric": 0.2828440868880051
+}

@@ -1,0 +1,8 @@
+{
+  "selected_checkpoint": "selected_dqn.pt",
+  "source_checkpoint": "../time_obs_seed2/dqn_seed2.pt",
+  "sha256": "569e4a04c6e04b80afb981e347495b234722236c5db8d950b1d3a0ba96c33896",
+  "selection_basis": "lowest mean absolute apogee error on nine development scenarios among three 100000-step seeds",
+  "final_evaluation": "../final_evaluation.json",
+  "nozzle_map_sha256": "ca3a7b51bdea71d4598fec7b71103185a1b8fbcb5e8a8273b87fdecb124549b3"
+}

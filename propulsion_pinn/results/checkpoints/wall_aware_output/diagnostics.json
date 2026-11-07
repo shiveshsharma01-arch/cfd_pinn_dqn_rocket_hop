@@ -1,0 +1,199 @@
+{
+  "selected_stage": "stage3",
+  "cases": {
+    "600": {
+      "axial_velocity": {
+        "rmse": 4.891530990600586,
+        "relative_l2_percent": 1.5180447101593018
+      },
+      "radial_velocity": {
+        "rmse": 0.5107380747795105,
+        "relative_l2_percent": 2.1583173274993896
+      },
+      "pressure": {
+        "rmse": 2379.0810546875,
+        "relative_l2_percent": 0.6433666944503784,
+        "mean_absolute_percent_error": 0.5975064039230347
+      },
+      "temperature": {
+        "rmse": 0.9080631732940674,
+        "relative_l2_percent": 0.3648572564125061
+      }
+    },
+    "700": {
+      "axial_velocity": {
+        "rmse": 3.9873454570770264,
+        "relative_l2_percent": 1.2236915826797485
+      },
+      "radial_velocity": {
+        "rmse": 0.5635665655136108,
+        "relative_l2_percent": 2.3400135040283203
+      },
+      "pressure": {
+        "rmse": 2464.8447265625,
+        "relative_l2_percent": 0.5715364813804626,
+        "mean_absolute_percent_error": 0.4922618269920349
+      },
+      "temperature": {
+        "rmse": 0.8824157118797302,
+        "relative_l2_percent": 0.3552076518535614
+      }
+    },
+    "750": {
+      "axial_velocity": {
+        "rmse": 3.0018041133880615,
+        "relative_l2_percent": 0.9219100475311279
+      },
+      "radial_velocity": {
+        "rmse": 0.5238856077194214,
+        "relative_l2_percent": 2.1762053966522217
+      },
+      "pressure": {
+        "rmse": 2225.744384765625,
+        "relative_l2_percent": 0.4816802144050598,
+        "mean_absolute_percent_error": 0.45565465092658997
+      },
+      "temperature": {
+        "rmse": 0.7235907316207886,
+        "relative_l2_percent": 0.2912159860134125
+      }
+    },
+    "800": {
+      "axial_velocity": {
+        "rmse": 3.121391534805298,
+        "relative_l2_percent": 0.9564037322998047
+      },
+      "radial_velocity": {
+        "rmse": 0.5462596416473389,
+        "relative_l2_percent": 2.2605249881744385
+      },
+      "pressure": {
+        "rmse": 2377.66259765625,
+        "relative_l2_percent": 0.4824276268482208,
+        "mean_absolute_percent_error": 0.4651402533054352
+      },
+      "temperature": {
+        "rmse": 0.7250550985336304,
+        "relative_l2_percent": 0.29191669821739197
+      }
+    },
+    "850": {
+      "axial_velocity": {
+        "rmse": 3.2655985355377197,
+        "relative_l2_percent": 0.998579740524292
+      },
+      "radial_velocity": {
+        "rmse": 0.5726158022880554,
+        "relative_l2_percent": 2.3619773387908936
+      },
+      "pressure": {
+        "rmse": 2623.374267578125,
+        "relative_l2_percent": 0.501000165939331,
+        "mean_absolute_percent_error": 0.4736315906047821
+      },
+      "temperature": {
+        "rmse": 0.7284700274467468,
+        "relative_l2_percent": 0.29339149594306946
+      }
+    },
+    "900": {
+      "axial_velocity": {
+        "rmse": 3.4113376140594482,
+        "relative_l2_percent": 1.0413342714309692
+      },
+      "radial_velocity": {
+        "rmse": 0.5953723788261414,
+        "relative_l2_percent": 2.4491524696350098
+      },
+      "pressure": {
+        "rmse": 2863.841064453125,
+        "relative_l2_percent": 0.5165650844573975,
+        "mean_absolute_percent_error": 0.4804908335208893
+      },
+      "temperature": {
+        "rmse": 0.7304391860961914,
+        "relative_l2_percent": 0.2942729890346527
+      }
+    },
+    "1000": {
+      "axial_velocity": {
+        "rmse": 3.722472906112671,
+        "relative_l2_percent": 1.133036732673645
+      },
+      "radial_velocity": {
+        "rmse": 0.648785412311554,
+        "relative_l2_percent": 2.657054901123047
+      },
+      "pressure": {
+        "rmse": 4090.3115234375,
+        "relative_l2_percent": 0.6640673875808716,
+        "mean_absolute_percent_error": 0.5946327447891235
+      },
+      "temperature": {
+        "rmse": 0.7564988732337952,
+        "relative_l2_percent": 0.30493098497390747
+      }
+    },
+    "650": {
+      "axial_velocity": {
+        "rmse": 3.39790940284729,
+        "relative_l2_percent": 1.0499953031539917
+      },
+      "radial_velocity": {
+        "rmse": 0.48446202278137207,
+        "relative_l2_percent": 2.0329647064208984
+      },
+      "pressure": {
+        "rmse": 2918.6474609375,
+        "relative_l2_percent": 0.7286771535873413,
+        "mean_absolute_percent_error": 0.608994722366333
+      },
+      "temperature": {
+        "rmse": 0.7674332857131958,
+        "relative_l2_percent": 0.3085617423057556
+      }
+    }
+  },
+  "wall": {
+    "600": {
+      "axial_rms_m_s": 0.019099023193120956,
+      "radial_rms_m_s": 0.0036908588372170925,
+      "max_speed_m_s": 0.12123767286539078
+    },
+    "700": {
+      "axial_rms_m_s": 0.02224547788500786,
+      "radial_rms_m_s": 0.003944242838770151,
+      "max_speed_m_s": 0.1273421347141266
+    },
+    "750": {
+      "axial_rms_m_s": 0.023903632536530495,
+      "radial_rms_m_s": 0.004062657244503498,
+      "max_speed_m_s": 0.12975220382213593
+    },
+    "800": {
+      "axial_rms_m_s": 0.02548244781792164,
+      "radial_rms_m_s": 0.004168999847024679,
+      "max_speed_m_s": 0.1318257451057434
+    },
+    "850": {
+      "axial_rms_m_s": 0.02698713354766369,
+      "radial_rms_m_s": 0.004266735166311264,
+      "max_speed_m_s": 0.1334722340106964
+    },
+    "900": {
+      "axial_rms_m_s": 0.028460294008255005,
+      "radial_rms_m_s": 0.004364876542240381,
+      "max_speed_m_s": 0.13511931896209717
+    },
+    "1000": {
+      "axial_rms_m_s": 0.03133401647210121,
+      "radial_rms_m_s": 0.004565877374261618,
+      "max_speed_m_s": 0.15483233332633972
+    },
+    "650": {
+      "axial_rms_m_s": 0.02056780643761158,
+      "radial_rms_m_s": 0.0038154020439833403,
+      "max_speed_m_s": 0.12444311380386353
+    }
+  }
+}

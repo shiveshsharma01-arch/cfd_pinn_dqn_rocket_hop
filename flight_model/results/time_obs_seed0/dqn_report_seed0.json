@@ -1,0 +1,36 @@
+{
+  "seed": 0,
+  "steps": 100000,
+  "episodes": 1803,
+  "checkpoint": "flight_model/results/time_obs_seed0/dqn_seed0.pt",
+  "training_log": "flight_model/results/time_obs_seed0/training_seed0.csv",
+  "evaluation": {
+    "dqn": {
+      "mean_absolute_apogee_error_m": 390.49589690462585,
+      "mean_fuel_used_kg": 49.313588405532414,
+      "within_100m_count": 0,
+      "scenarios": 9
+    },
+    "fixed_800": {
+      "mean_absolute_apogee_error_m": 718.6922798020145,
+      "mean_fuel_used_kg": 50.0,
+      "within_100m_count": 1,
+      "scenarios": 9
+    },
+    "fixed_1000": {
+      "mean_absolute_apogee_error_m": 1574.1498016991343,
+      "mean_fuel_used_kg": 50.0,
+      "within_100m_count": 0,
+      "scenarios": 9
+    },
+    "ballistic_cutoff_1000": {
+      "mean_absolute_apogee_error_m": 130.10357658109731,
+      "mean_fuel_used_kg": 41.37233589807041,
+      "within_100m_count": 3,
+      "scenarios": 9
+    }
+  },
+  "torch_version": "2.6.0+cu124",
+  "numpy_version": "2.4.4",
+  "nozzle_map_sha256": "ca3a7b51bdea71d4598fec7b71103185a1b8fbcb5e8a8273b87fdecb124549b3"
+}

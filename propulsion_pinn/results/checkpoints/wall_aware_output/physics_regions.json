@@ -1,0 +1,26 @@
+{
+  "0_5_um": {
+    "available_cells": 1289,
+    "sampled": 128,
+    "mean_squared_continuity": 1252.067138671875,
+    "mean_squared_momentum": 169.9602508544922
+  },
+  "5_50_um": {
+    "available_cells": 3194,
+    "sampled": 128,
+    "mean_squared_continuity": 60.05816650390625,
+    "mean_squared_momentum": 9.803058624267578
+  },
+  "50_500_um": {
+    "available_cells": 4235,
+    "sampled": 128,
+    "mean_squared_continuity": 6.678302764892578,
+    "mean_squared_momentum": 0.5053768157958984
+  },
+  "over_500_um": {
+    "available_cells": 21456,
+    "sampled": 128,
+    "mean_squared_continuity": 0.042567040771245956,
+    "mean_squared_momentum": 0.010311461985111237
+  }
+}
